@@ -1,0 +1,93 @@
+@media all and (max-width: 960px) and (min-width: 481px) {
+	body {
+		background-color: orange;
+	}
+}
+
+/*###*/
+
+/* smaller than a tablet is the default design*/
+.bio {
+	display: none;
+}
+
+.gallery {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+}
+
+.gallery .image {
+	width: 380px;
+	height: 380px;
+	position: relative;
+	float: left;
+	margin: 10px auto;
+	background-color: #efefef;
+}
+
+.gallery #i-1 {
+	background-image: url(../images/photo01.jpg);
+}
+
+.gallery #i-2 {
+	background-image: url(../images/photo02.jpg);
+}
+
+.gallery #i-3 {
+	background-image: url(../images/photo03.jpg);
+}
+
+.gallery #i-4 {
+	background-image: url(../images/photo04.jpg);
+}
+
+.gallery #i-5 {
+	background-image: url(../images/photo05.jpg);
+}
+
+.gallery #i-6 {
+	background-image: url(../images/photo06.jpg);
+}
+
+/* Small devices (tablets, 768px and up) */
+@media all and (min-width: 768px) { 
+	.bio {
+		display: block;
+	}
+
+	.bio p {
+		font-size: 22px
+	}
+
+	.gallery .image {
+		width: 600px;
+		height: 600px;
+		position: relative;
+		float: left;
+		margin: 10px 1%;
+		background-color: #efefef;
+		border: 15px solid black;
+	}
+
+/* Medium devices (desktops, 992px and up) */
+@media all and (min-width: 992px) {
+	.bio {
+		display: block;
+	}
+
+	.bio p {
+		font-size: 14px
+	}
+}
+/* Large devices (large desktops, 1200px and up) */
+@media all and (min-width: 1200px) {
+	.bio {
+		display: block;
+	}
+
+	.bio p {
+		font-size: 18px
+	}
+}
